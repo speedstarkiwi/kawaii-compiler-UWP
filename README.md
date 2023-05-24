@@ -20,6 +20,14 @@ The embedded Lua C API within the dll can be updated easily if structs, addresse
 
 *Fun Fact: UWP has limited access to some functions like MessageBox so....the happy world of Roblox!*
 
+# whats new?
+
+I implemented a state of the art `inlined` functions. I have not tested them, but they are legit so it has to work (real)! There is also actual **useful** comments. There is also a teleport handler. **It** is not the best because you can use **ACTUAL** events like Teleport->TeleportInProgress but didn't feel like it.
+
+# how to use?
+
+Our discord server is `discord.gg/UmtdVUUvGw` and it won't expire. We will help you here.
+
 # credits
 
 `scheduler` http://github.com/NezyDev/
@@ -28,4 +36,3 @@ The embedded Lua C API within the dll can be updated easily if structs, addresse
 
 `you` https://skid-axon.com/
 
-It would be really cool if you credited me if you used this source <3!
