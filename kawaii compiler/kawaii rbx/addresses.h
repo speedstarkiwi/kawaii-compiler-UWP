@@ -3,8 +3,7 @@
 #include <Windows.h>
 #include <string>
 
-//updated after byfron sad moment
-//uwp is all 'we' have skid
+//i dont know if uwp updates (i havent researched it good enough)
 
 uintptr_t base_address = reinterpret_cast<uintptr_t>(GetModuleHandleA(nullptr)); //just return module
 
@@ -57,4 +56,4 @@ using printidentity_rbx = std::uintptr_t(__cdecl*)(std::uintptr_t rl);//prints i
 printidentity_rbx rbx_printidentity = reinterpret_cast<printidentity_rbx>(printidentity_address);
 
 using closestate_rbx = std::uintptr_t(__fastcall*)(std::uintptr_t rl);//closes state (remember to do rl = NULL)
-closestate_rbx rbx_closestate = reinterpret_cast<closestate_rbx>(printidentity_address);
+closestate_rbx rbx_closestate = reinterpret_cast<closestate_rbx>(closestate_address);
